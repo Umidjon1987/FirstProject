@@ -75,53 +75,5 @@ const personalMovieDB = {
                 personalMovieDB.genres.forEach((item, i) => {
                     console.log(`Любимый жанр ${i + 1} - это ${item}`);
                 });
-              
             }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-// personalMovieDB.start();
-// personalMovieDB.rememberMyFilms();
-// personalMovieDB.detectPersonalLevel();
-// personalMovieDB.showMyDB(personalMovieDB.privat);
-// personalMovieDB.writeYourGenres();
-
-// const obj = new Object();
-
-// let str = "some";
-// let strObj = new String(str);
-
-// console.log(typeof(str));
-// console.log(typeof(strObj));
-
-// console.dir([1, 2, 3]);
-
-// const soldier = {
-//     health: 400,
-//     armor: 100,
-//     sayHello: function() {
-//         console.log("Hello");
-//     }
-// };
-
-// const john = {
-//     health: 100
-
-// };
-
-// john.__proto__ = soldier;
-
-// Object.setPrototypeOf(john, soldier);
-
-// john.sayHello();
