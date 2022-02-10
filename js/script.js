@@ -77,3 +77,48 @@ const personalMovieDB = {
                 });
             }
 };
+
+// 1) метод String превращает в строку
+console.log(typeof(String(null)));
+console.log(typeof(String(4)));
+
+// 2) способ Конкатенация превращает в строку
+console.log(typeof(5 + ''));
+
+const num = 5;
+
+console.log("https://vk.com/catalog/" + num);
+
+const fontSize = 26 + 'px';
+
+// 1) способ Number превращает в Число
+console.log(typeof(Number('4')));
+
+// 2) унарный плюс превращает в Число
+console.log(typeof(+'5'));
+
+// 3) метод parseInt превращает в Число
+console.log(typeof(parseInt("15px", 10)));
+console.log(parseInt("15px", 10));
+
+
+let answer = +prompt("Hello", "");
+
+// 1) 0, '', null, undefined, NaN - всегда false, а остальные значения true
+let switcher = null;
+
+if(switcher){
+    console.log('Working...');
+}
+
+switcher = 1;
+
+if(switcher){
+    console.log('Working...');
+}
+
+// 2) метод Boolean 
+console.log(typeof(Boolean('4')));
+
+// 3) два знака отрицания !!
+console.log(typeof(!!"44444"));
